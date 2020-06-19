@@ -15,7 +15,6 @@ const ywh = new YWH();
 
 await ywh
         .login('{LOGIN}', '{PASSWORD}')
-        .then(async () => await ywh.totp('{TOTP_CODE}'))
         .catch((error) => {
             console.log(error);
         });
@@ -31,6 +30,7 @@ const ywh = new YWH();
 
 await ywh
         .login('{LOGIN}', '{PASSWORD}')
+        .then(async () => await ywh.totp('{TOTP_CODE}'))
         .catch((error) => {
             console.log(error);
         });
