@@ -77,6 +77,26 @@ reports.map((report: any) => {
 });
 ```
 
+### Programs 🗂
+
+```typescript
+import { YWH } from "https://deno.land/x/yeswehack/mod.ts";
+
+const ywh = new YWH();
+
+await ywh
+        .login('{LOGIN}', '{PASSWORD}')
+        .catch((error) => {
+            console.log(error);
+        });
+        
+const programs = await ywh.programs();
+
+programs.map((program: any) => {
+  console.log(program.title);
+});
+```
+
 ## User (current) 👨🏻‍💼
 
 ```typescript
