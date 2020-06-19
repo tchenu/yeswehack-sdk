@@ -1,1 +1,1 @@
-import { YWH } from "./ywh.ts";
+export { YWH } from "./ywh.ts";
