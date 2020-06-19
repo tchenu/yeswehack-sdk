@@ -57,7 +57,7 @@ hacks.map((hack: any) => {
 ```
 
 
-### Reports
+### Reports 📄
 
 ```typescript
 import { YWH } from "https://deno.land/x/yeswehack/mod.ts";
