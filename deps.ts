@@ -1,1 +1,1 @@
-export { soxa } from 'https://deno.land/x/soxa/mod.ts';
+export { soxa } from "https://deno.land/x/soxa/mod.ts";
